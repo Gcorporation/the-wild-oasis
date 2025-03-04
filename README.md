@@ -11,3 +11,7 @@ styled-components for Styling
 vite-plugin-eslint
 eslint-config-react-app
 eslint
+
+# Supabase Plugin
+
+@supabase/supabase-js
