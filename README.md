@@ -14,4 +14,4 @@ eslint
 
 # Supabase Plugin
 
-@supabase/supabase-js
+@supabase/supabase-js for connectiong to SupaBase DB
