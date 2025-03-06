@@ -15,3 +15,7 @@ eslint
 # Supabase Plugin
 
 @supabase/supabase-js for connectiong to SupaBase DB
+
+# Toasts Notofication
+
+react-hot-toast
