@@ -19,3 +19,7 @@ eslint
 # Toasts Notofication
 
 react-hot-toast
+
+# React hook Forms
+
+react-hook-form@7 for form data collection
