@@ -23,3 +23,5 @@ react-hot-toast
 # React hook Forms
 
 react-hook-form@7 for form data collection, validations and management
+
+# Use ReactPortal for Modal creation
