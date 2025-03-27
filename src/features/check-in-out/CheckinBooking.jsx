@@ -12,7 +12,7 @@ import { useBooking } from "../bookings/useBooking";
 import Spinner from "../../ui/Spinner";
 import { useEffect, useState } from "react";
 
-import CheckBox from "../../ui/CheckBox";
+import CheckBox from "../../ui/Checkbox";
 import { formatCurrency } from "../../utils/helpers";
 import { useCheckin } from "./useCheckin";
 
