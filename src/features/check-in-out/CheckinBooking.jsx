@@ -13,7 +13,6 @@ import Spinner from "../../ui/Spinner";
 import { useEffect, useState } from "react";
 
 import CheckBox from "../../ui/CheckBox";
-import { format } from "date-fns/fp";
 import { formatCurrency } from "../../utils/helpers";
 import { useCheckin } from "./useCheckin";
 
