@@ -8,10 +8,11 @@ export function useCheckin() {
   const navigate = useNavigate();
 
   const { mutate: checkin, isLoading: isCheckingIn } = useMutation({
-    mutationFn: ({ bookingId }) => {
+    mutationFn: ({ bookingId, breakfast }) => {
       return updateBooking(bookingId, {
         status: "checked-in",
         isPaid: true,
+        ...breakfast,
       });
     },
     onSuccess: (data) => {
