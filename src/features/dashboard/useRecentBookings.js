@@ -4,12 +4,11 @@ import { useSearchParams } from "react-router-dom";
 import { getBookingsAfterDate } from "../../services/apiBookings";
 
 export function useRecentBookings() {
-  const [searchparams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
-  const numDays = !searchparams.get("last")
+  const numDays = !searchParams.get("last")
     ? 7
-    : Number(searchparams.get("last"));
-
+    : Number(searchParams.get("last"));
   const queryDate = subDays(new Date(), numDays).toISOString();
 
   const { isLoading, data: bookings } = useQuery({
